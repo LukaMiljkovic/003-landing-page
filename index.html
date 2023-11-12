@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+    <svg id="blob" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(115 0.5 0.5)">
+                <stop offset="0%" stop-color="#b69ec2"></stop>
+                <stop offset="100%" stop-color="#642f9a"></stop>
+            </linearGradient>
+        </defs>
+        <path
+            d="M87.5,64.5Q79,79,64.5,79.5Q50,80,33,82Q16,84,10.5,67Q5,50,12,34.5Q19,19,34.5,16.5Q50,14,62.5,19.5Q75,25,85.5,37.5Q96,50,87.5,64.5Z"
+            stroke="none" stroke-width="0" fill="url(#fill)"></path>
+    </svg>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="#" id="logo"><img src="./img/logo.png" alt="logo image"> <span>Atom</span></a>
+                <div>
+                    <span class="clickableLink1">Product <i id="arrowDown1" class="fa-solid fa-chevron-down"></i></span>
+                    <span class="clickableLink2">Solutions <i id="arrowDown2"
+                            class="fa-solid fa-chevron-down"></i></span>
+                    <span class="clickableLink3">Learn <i id="arrowDown3" class="fa-solid fa-chevron-down"></i></span>
+                    <a href="#">Pricing</a>
+                    <a href="#">Enterprise</a>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <a href="#">Contact Sales</a>
+                <a href="#">Sign Up</a>
+                <a href="#">Log In</a>
+                <img id="menu" src="./img/menu.png" alt="menubtn">
+            </div>
+        </nav>
+    </header>
+    <section class="product">
+        <p>Product</p>
+    </section>
+    <section class="solutions">
+        <p>Solutions</p>
+    </section>
+    <section class="learning">
+        <p>Learning</p>
+    </section>
+    <main>
+        <section class="hero">
+            <div class="hero-left">
+                <h1>One app to<br /> replace them all.</h1>
+                <p>All your work in one place:</p>
+                <div class="what-you-get">
+                    <a href="#">Tasks <i style="color: green;" class="fa-regular fa-square-check"></i></a>
+                    <a href="#">Whiteboards <i style="color: rgb(130, 35, 165);"
+                            class="fa-solid fa-chalkboard-user"></i></a>
+                    <a href="#">Dashboards <i style="color: rgb(50, 50, 186);"
+                            class="fa-solid fa-table-columns"></i></a>
+                    <a href="#">Chat <i style="color: rgb(235, 164, 64);" class="fa-solid fa-comment"></i></a>
+                    <a href="#">Goals <i style="color: rgb(237, 225, 54);" class="fa-solid fa-trophy"></i></a>
+                    <a href="#">Docs <i style="color: rgb(28, 181, 192);" class="fa-regular fa-file-lines"></i></a>
+                </div>
+                <form action="">
+                    <input type="email" placeholder="Enter your work email">
+                    <div>
+                        <a id="formBtn" href="#">Get Started</a>
+                        <p>Free Forever. <br /> No Credit Card.</p>
+                    </div>
+                </form>
+            </div>
+            <img src="./img/create-dashboard-v2-gif.gif" alt="">
+        </section>
+        <section class="partners">
+            <p>JOIN 800,000+ HIGHLY PRODUCTIVE TEAMS</p>
+            <div class="brands">
+                <img src="./img/Booking.Com-logo.png" alt="">
+                <img src="./img/IBM_logo.svg.png" alt="">
+                <img src="./img/Logitech-Logo.png" alt="">
+                <img src="./img/Tibco_logo-_Palo_Alto,_CA_company-_(PNG)_2013-11-24_16-00.png" alt="">
+                <img src="./img/Spotify_Logo_RGB_Green.png" alt="">
+                <img src="./img/T-Mobile_US_Logo_2022_RGB_Magenta_on_Transparent.svg.png" alt="">
+                <img src="./img/Netflix-Brand-Logo.png" alt="">
+            </div>
+        </section>
+        <section class="utilities-wrapper">
+            <div class="utilities">
+                <span>Project & Tasks</span>
+                <span>Chat</span>
+                <span>Goals</span>
+                <span>Views</span>
+            </div>
+            <div class="utility-desc">
+                <div>
+                    <h2>Simplify work and <br /> get more done.</h2>
+                    <p>Plan, track, and manage any type of work with project <br /> management that flexes to your
+                        team's
+                        needs.</p>
+                    <p><strong>REPLACES: Asana | Monday | Jira</strong></p>
+                    <a href="#">Get Started</a>
+                </div>
+                <img src="./img/undraw_accept_tasks_re_09mv.svg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>Copyright &copy 2023.</footer>
+    <script src="./js/nav.js"></script>
+    <script src="https://kit.fontawesome.com/608f9b4085.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
